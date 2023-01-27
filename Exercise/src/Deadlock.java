@@ -1,4 +1,4 @@
-public class deadlock {
+public class Deadlock {
     public static void main(String[] args) {
         ListNode listNode1 = new ListNode(1);
         ListNode listNode2 = new ListNode(2);
