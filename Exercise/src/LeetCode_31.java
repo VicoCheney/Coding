@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class LeetCode_31 {
     public void nextPermutation(int[] nums) {
         int len = nums.length;
