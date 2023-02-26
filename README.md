@@ -97,3 +97,12 @@
 **-- LeetCode_128**：最长连续序列。用hashset去重，遍历然后找到一个连续序列的边界，最后不断扩展到不连续，记录长度。
 
 **-- LeetCode_139**：单词拆分。可以用dp或者dfs来做，dfs要注意可能会超时，所以需要备忘录来记录下标为i后面的子串能否拆分（当作缓存）。
+
+### **<font color=YellowGreen>2023-2-26：</font>**
+
+**-- LeetCode_141**：判断链表是否有环，快慢指针就可以。
+
+**-- LeetCode_142**：返回链表入环的第一个点，快慢指针就可以，也可以用HashSet。
+
+**-- LeetCode_146**：设计LRU缓存，官方用LinkedHashMap，我这里用HashMap+queue（但是效果较差）。queue用来找出最近没使用过的key。
+
