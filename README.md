@@ -106,3 +106,8 @@
 
 **-- LeetCode_146**：设计LRU缓存，官方用LinkedHashMap，我这里用HashMap+queue（但是效果较差）。queue用来找出最近没使用过的key。
 
+### **<font color=YellowGreen>2023-3-3：</font>**
+
+**-- LeetCode_148**：链表排序。跟正常排序区别不大，可以用冒泡（会超时）、归并、快排等方法。
+
+
