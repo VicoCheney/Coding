@@ -106,6 +106,10 @@
 
 **-- LeetCode_146**：设计LRU缓存，官方用LinkedHashMap，我这里用HashMap+queue（但是效果较差）。queue用来找出最近没使用过的key。
 
+### **<font color=YellowGreen>2023-2-8：</font>**
+
+**-- Xinghuan_20230228_1**：面试题，二叉树根据前序和中序找后序。
+
 ### **<font color=YellowGreen>2023-3-3：</font>**
 
 **-- LeetCode_148**：链表排序。跟正常排序区别不大，可以用冒泡（会超时）、归并、快排等方法。
@@ -113,3 +117,9 @@
 ### **<font color=YellowGreen>2023-3-4：</font>**
 
 **-- LeetCode_152**：乘积最大子数组。可以用动态规划做，记录最大值和最小值。
+
+### **<font color=YellowGreen>2023-3-6：</font>**
+
+**-- Midea_20230306_1**：找出整数数组中两者间最大乘积。保存第一大和第二大以及第一小和第二小并互相乘比大小。
+
+**-- Midea_20230306_2**：经典的整数矩阵从左上角到右下角最短路径，用dp做就可以。

@@ -47,7 +47,7 @@ public class Bole_20230216_2 {
         return root;
     }
 
-    class TreeNode {
+    static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
